@@ -1,0 +1,143 @@
+@import url('https://fonts.peak10.com/glyphicons.css');
+@import url('https://fonts.peak10.com/streamline.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+
+/*#001b2b - darkblue
+#4fbeff - skyblue
+#006aa7 - mediumblue
+#fecc00 - yellow
+#63c5ff - aqua*/
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color:  #fff;
+  background-color: #102542;
+  background-size: contain;
+  font-size: 16px;
+}
+
+.no-space .box {
+  margin: 0 -15px;
+}
+
+.box {
+  overflow: hidden;
+}
+
+.box img {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0.7;
+}
+
+.box:hover img {
+    opacity: 1;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.hero {
+  display: block;
+  width: 100%;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hero h1 {
+  font-size: 80px;
+  margin:  40% 0;
+  color: #fff;
+  font-weight: 100;
+  text-align: left;
+}
+
+.bio {
+    background-color: #e6e6e6;
+    color: #222;
+    width: 100%;
+    padding: 80px 0;
+    text-align: center;
+ }
+
+.bio h2 {
+    font-size: 32px;
+    line-height: 50px;
+    margin-bottom: 40px;
+ }
+
+.bio a {
+  color: #102542;
+  text-decoration:  none;
+  border-bottom: 2px solid #102542;
+  font-weight: 400;
+}
+
+.bio a:hover {
+  border-bottom: 0px;
+  color: #222;
+  background-color: #fecc00;
+}
+   
+.skills {
+    background-color: #ffffee;
+    color: #102542;
+    padding: 5% 0;
+    text-align: left;
+}   
+
+.skills h2 {
+    color: #102542;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-title {
+    background-color: #d7cdcc;
+    width: 100%;
+    padding: 4% 0;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #222;
+ }
+
+ 
+ .icon {
+    text-align: center;
+    padding: 40px;
+    color: #222;
+    font-size: 80px;
+    border: 2px solid #222;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin: 50px auto;
+}
+   
+.fun-facts {
+    background-color: #e6e6e6;
+    text-align: center;
+    font-size: 18px;
+    color: #222;
+    padding-bottom: 100px;
+}
+
+footer {
+    width: 100%;
+    padding: 30px;
+    text-align: left;
+}
+
+footer p {
+    color: #ccc;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
